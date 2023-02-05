@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #384152;
+    --bg-input-color: #202938;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 800px;
+    height: 800px;
+    background-color: var(--bg-color);
+    border-radius: 20px;
+    padding: 50px 30px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form input {
+    height: 50px;
+    width: 85%;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    outline: none;
+    font-size: 18px;
+    background-color: var(--bg-input-color);
+    color: #757575;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.tasks {
+    margin-top: 50px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111828;
+    padding-left: 20px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #DAE3DF;
+    margin: 15px 0;
+}
+
+.task_btns {
+    padding-right: 20px;
+}
+
+.edit {
+    background: -webkit-linear-gradient(#CB237A, #A031D5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 20px;
+
+}
+
+.add {
+    background: -webkit-linear-gradient(#CB237A, #A031D5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.delete {
+    color: #BA2138;
+}
